@@ -1,12 +1,4 @@
 course = 'mooc-java-programming-i'
-[exercises."part02-Part02_08.NumberOfNumbers"]
-id = 83157
-checksum = '3386c611ed60332f18700947bb68ea86'
-
-[exercises."part02-Part02_09.NumberOfNegativeNumbers"]
-id = 83158
-checksum = '57f08f24849fe84f6cf38b63affaf48c'
-
 [exercises."part02-Part02_10.SumOfNumbers"]
 id = 83159
 checksum = '6fca0be39db123e0ef1512671a41d797'

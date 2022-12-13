@@ -2,8 +2,9 @@
 public class Greatest {
 
     public static int greatest(int number1, int number2, int number3) {
-        int maxOfTwo = Math.max(number1, number2);
-        return Math.max(maxOfTwo, number3);
+        //write some code here
+
+        return -1;
     }
 
     public static void main(String[] args) {
