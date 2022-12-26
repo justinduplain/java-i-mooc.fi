@@ -8,6 +8,7 @@ public class OnlyTheseNumbers {
         Scanner scanner = new Scanner(System.in);
 
         ArrayList<Integer> numbers = new ArrayList<>();
+
         while (true) {
             int number = Integer.valueOf(scanner.nextLine());
             if (number == -1) {
@@ -17,5 +18,13 @@ public class OnlyTheseNumbers {
             numbers.add(number);
         }
 
+        System.out.print("From where? ");
+        int startIdx = Integer.valueOf(scanner.nextLine());
+        System.out.print("To where? ");
+        int endIdx = Integer.valueOf(scanner.nextLine());
+
+        for (int i = startIdx; i <= endIdx; i++)  {
+            System.out.println(numbers.get(i));
+        }
     }
 }
