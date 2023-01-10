@@ -8,8 +8,9 @@ public class IndexOf {
         Scanner scanner = new Scanner(System.in);
 
         ArrayList<Integer> list = new ArrayList<>();
+        int input;
         while (true) {
-            int input = Integer.valueOf(scanner.nextLine());
+            input = Integer.valueOf(scanner.nextLine());
             if (input == -1) {
                 break;
             }
@@ -21,6 +22,8 @@ public class IndexOf {
         System.out.print("Search for? ");
         int searchFor = Integer.valueOf(scanner.nextLine());
         System.out.println("");
+
+        list.remove(searchFor);
 
         for (int i = 0; i < list.size(); i++) {
             if (list.get(i) == searchFor) {

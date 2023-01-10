@@ -9,6 +9,7 @@ public class SumOfArray {
 
     public static int sumOfNumbersInArray(int[] array) {
         // Write some code here
+        
         return 0;
     }
 }
